@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wyspy Handlowe - Projektowanie i Realizacja</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Sticky Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="#home" class="logo-link">
+                    <img src="assets/logo.webp" alt="Logo firmy" class="logo">
+                </a>
+                <nav class="nav">
+                    <a href="#oferta" class="nav-link">Oferta</a>
+                    <a href="#proces" class="nav-link">Proces</a>
+                    <a href="#realizacje" class="nav-link">Realizacje</a>
+                    <a href="#kontakt" class="nav-link">Kontakt</a>
+                </nav>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title fade-in-up">Projektujemy i realizujemy wyspy handlowe</h1>
+                    <p class="hero-description fade-in-up">Kompleksowa obsługa – od koncepcji i projektu, po produkcję i montaż w centrach handlowych.</p>
+                    <a href="#kontakt" class="btn btn-primary fade-in-up">Poproś o wycenę</a>
+                </div>
+                <div class="hero-image">
+                    <img src="assets/galery_1.jpg" alt="Wyspa handlowa" class="hero-img zoom-in">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dlaczego my -->
+    <section class="why-us">
+        <div class="container">
+            <h2 class="section-title">Dlaczego my</h2>
+            <div class="why-us-grid">
+                <div class="why-us-card scroll-fade">
+                    <div class="why-us-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M2 12L12 17L22 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="why-us-title">Doświadczenie i rzemiosło</h3>
+                    <p class="why-us-text">Wieloletnie doświadczenie w projektowaniu i produkcji wysp handlowych najwyższej jakości. Każdy projekt to połączenie precyzji rzemieślniczej z nowoczesnymi technologiami.</p>
+                </div>
+                <div class="why-us-card scroll-fade">
+                    <div class="why-us-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M21 10C21 17 12 23 12 23C12 23 3 17 3 10C3 7.61305 3.94821 5.32387 5.63604 3.63604C7.32387 1.94821 9.61305 1 12 1C14.3869 1 16.6761 1.94821 18.364 3.63604C20.0518 5.32387 21 7.61305 21 10Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M12 13C13.6569 13 15 11.6569 15 10C15 8.34315 13.6569 7 12 7C10.3431 7 9 8.34315 9 10C9 11.6569 10.3431 13 12 13Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="why-us-title">Dopasowanie do wytycznych galerii handlowych</h3>
+                    <p class="why-us-text">Znamy wymagania i standardy największych centrów handlowych. Każdy projekt spełnia wytyczne dotyczące bezpieczeństwa, funkcjonalności i estetyki.</p>
+                </div>
+                <div class="why-us-card scroll-fade">
+                    <div class="why-us-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M22 11.08V12C21.9988 14.1564 21.3005 16.2547 20.0093 17.9818C18.7182 19.7088 16.9033 20.9725 14.8354 21.5839C12.7674 22.1953 10.5573 22.1219 8.53447 21.3746C6.51168 20.6273 4.78465 19.2461 3.61096 17.4371C2.43727 15.628 1.87979 13.4881 2.02168 11.3363C2.16356 9.18455 2.99721 7.13631 4.39828 5.49706C5.79935 3.85781 7.69279 2.71537 9.79619 2.24013C11.8996 1.7649 14.1003 1.98232 16.07 2.85999" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M22 4L12 14.01L9 11.01" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="why-us-title">Kompleksowa realizacja</h3>
+                    <p class="why-us-text">Oferujemy pełen zakres usług – od pierwszego szkicu, przez produkcję, aż po profesjonalny montaż. Jeden partner, kompleksowa obsługa.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Oferta -->
+    <section class="offer" id="oferta">
+        <div class="container">
+            <h2 class="section-title">Oferta</h2>
+            <p class="section-subtitle">Kompleksowy zakres usług dla centrów handlowych</p>
+            <div class="offer-grid">
+                <div class="offer-card scroll-fade">
+                    <div class="offer-card-inner">
+                        <h3 class="offer-title">Projekt</h3>
+                        <p class="offer-text">Tworzymy koncepcje dopasowane do wymagań galerii handlowych. Projektujemy z uwzględnieniem funkcjonalności, estetyki i przepisów bezpieczeństwa.</p>
+                        <ul class="offer-list">
+                            <li>Koncepcja i wizualizacja</li>
+                            <li>Dokumentacja techniczna</li>
+                            <li>Dopasowanie do wytycznych galerii</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="offer-card scroll-fade">
+                    <div class="offer-card-inner">
+                        <h3 class="offer-title">Produkcja</h3>
+                        <p class="offer-text">Własna produkcja w nowoczesnym zakładzie. Wykorzystujemy najlepsze materiały i technologie, zapewniając najwyższą jakość wykonania.</p>
+                        <ul class="offer-list">
+                            <li>Produkcja stolarki</li>
+                            <li>Kontrola jakości</li>
+                            <li>Terminowość realizacji</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="offer-card scroll-fade">
+                    <div class="offer-card-inner">
+                        <h3 class="offer-title">Montaż</h3>
+                        <p class="offer-text">Profesjonalny montaż w centrach handlowych przez doświadczony zespół. Zapewniamy minimalne zakłócenia w działalności galerii.</p>
+                        <ul class="offer-list">
+                            <li>Montaż na miejscu</li>
+                            <li>Koordynacja z zarządcą galerii</li>
+                            <li>Odbiór i serwis</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proces -->
+    <section class="process" id="proces">
+        <div class="container">
+            <h2 class="section-title">Proces współpracy</h2>
+            <p class="section-subtitle">Jak wygląda nasza współpraca krok po kroku</p>
+            <div class="process-timeline">
+                <div class="process-step scroll-fade">
+                    <div class="process-number">1</div>
+                    <h3 class="process-title">Analiza potrzeb i wymagań</h3>
+                    <p class="process-text">Rozmawiamy o Twoich potrzebach, wymaganiach galerii handlowej i specyfice projektu. Analizujemy przestrzeń i przygotowujemy wstępną koncepcję.</p>
+                </div>
+                <div class="process-step scroll-fade">
+                    <div class="process-number">2</div>
+                    <h3 class="process-title">Projekt i wizualizacja</h3>
+                    <p class="process-text">Tworzymy szczegółowy projekt wraz z wizualizacjami 3D. Prezentujemy rozwiązania dopasowane do Twoich potrzeb i wymagań centrum handlowego.</p>
+                </div>
+                <div class="process-step scroll-fade">
+                    <div class="process-number">3</div>
+                    <h3 class="process-title">Produkcja</h3>
+                    <p class="process-text">Po akceptacji projektu rozpoczynamy produkcję w naszym zakładzie. Zapewniamy kontrolę jakości na każdym etapie i informujemy o postępach.</p>
+                </div>
+                <div class="process-step scroll-fade">
+                    <div class="process-number">4</div>
+                    <h3 class="process-title">Montaż i odbiór</h3>
+                    <p class="process-text">Profesjonalny montaż w centrum handlowym przez nasz zespół. Koordynujemy prace z zarządcą galerii i przeprowadzamy odbiór końcowy.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Realizacje -->
+    <section class="gallery" id="realizacje">
+        <div class="container">
+            <h2 class="section-title">Realizacje</h2>
+            <p class="section-subtitle">Zobacz nasze projekty w centrach handlowych</p>
+            <div class="gallery-grid">
+                <div class="gallery-item scroll-fade" data-image="assets/galery_2.webp">
+                    <img src="assets/galery_2.webp" alt="Realizacja 1" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <h3 class="gallery-title">Wyspa handlowa - Centrum A</h3>
+                    </div>
+                </div>
+                <div class="gallery-item scroll-fade" data-image="assets/galery_3.webp">
+                    <img src="assets/galery_3.webp" alt="Realizacja 2" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <h3 class="gallery-title">Wyspa handlowa - Centrum B</h3>
+                    </div>
+                </div>
+                <div class="gallery-item scroll-fade" data-image="assets/galery_4.webp">
+                    <img src="assets/galery_4.webp" alt="Realizacja 3" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <h3 class="gallery-title">Wyspa handlowa - Centrum C</h3>
+                    </div>
+                </div>
+                <div class="gallery-item scroll-fade" data-image="assets/galery_5.webp">
+                    <img src="assets/galery_5.webp" alt="Realizacja 4" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <h3 class="gallery-title">Wyspa handlowa - Centrum D</h3>
+                    </div>
+                </div>
+                <div class="gallery-item scroll-fade" data-image="assets/galery_6.webp">
+                    <img src="assets/galery_6.webp" alt="Realizacja 5" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <h3 class="gallery-title">Wyspa handlowa - Centrum E</h3>
+                    </div>
+                </div>
+                <div class="gallery-item scroll-fade" data-image="assets/galery_7.webp">
+                    <img src="assets/galery_7.webp" alt="Realizacja 6" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <h3 class="gallery-title">Wyspa handlowa - Centrum F</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal dla galerii -->
+    <div class="modal" id="galleryModal">
+        <div class="modal-content">
+            <span class="modal-close" id="modalClose">&times;</span>
+            <img src="" alt="Realizacja" class="modal-img" id="modalImg">
+            <h3 class="modal-title" id="modalTitle"></h3>
+        </div>
+    </div>
+
+    <!-- CTA + Kontakt -->
+    <section class="contact" id="kontakt">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-text">
+                    <h2 class="contact-title">Masz pomysł na wyspę handlową?</h2>
+                    <p class="contact-description">Skontaktuj się z nami – przygotujemy koncepcję i wycenę dopasowaną do Twoich potrzeb.</p>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <strong>Telefon:</strong>
+                            <span>+48 123 456 789</span>
+                        </div>
+                        <div class="contact-item">
+                            <strong>E-mail:</strong>
+                            <span>kontakt@wyspyhandlowe.pl</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Imię</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Adres e-mail</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Wiadomość</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Wyślij zapytanie</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stopka -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="assets/logo.webp" alt="Logo firmy" class="footer-logo-img">
+                </div>
+                <div class="footer-info">
+                    <p class="footer-text">Projektowanie i realizacja wysp handlowych dla centrów handlowych</p>
+                    <p class="footer-copyright">&copy; 2024 Wszelkie prawa zastrzeżone</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
