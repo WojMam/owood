@@ -776,6 +776,11 @@ section {
         gap: var(--spacing-md);
     }
     
+    .hero-text {
+        max-width: 100%;
+        text-align: center;
+    }
+    
     .hero-image {
         order: -1;
     }
